@@ -14,7 +14,7 @@ function StudentForm() {
 
         try {
             // calling the api using the fetch 
-            const res = await fetch("http://localhost:5004/api/students", {
+            const res = await fetch("https://student-mern-2.onrender.com/api/students", {
                 method: "POST",
                 headers: {
                     "content-Type": "application/json",
